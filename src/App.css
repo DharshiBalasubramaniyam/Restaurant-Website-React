@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+
+:root {
+    /* color: rgb(255, 171, 140); */
+    --orange:rgb(255, 93, 34);
+    --lightorange: rgb(255, 171, 140);
+}
+
+button {
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: black;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: transparent;
+    color: var(--orange);
+}
+
+section {
+    padding: 0 100px;
+}

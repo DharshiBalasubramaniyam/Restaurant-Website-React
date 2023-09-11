@@ -1,0 +1,52 @@
+#home {
+    position: relative;
+    height: 100vh;
+    background-image: url('../../images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+}
+#home > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: var(--orange);
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 100px;
+}
+#home > div p:first-child {
+    font-size: 30px;
+}
+#home > div p:last-of-type {
+    font-size: 70px;
+    color: var(--lightorange);
+    width: 80%;
+}
+#home > div button {
+    width: 150px;
+    margin-top: 15px;
+}
+
+@media all and (max-width:1000px) {
+    #home > div p:last-of-type {
+        width: 100%;
+    }
+    #home > div{
+        padding: 0 15px;
+    }
+}
+@media all and (max-width:800px) {
+    #home > div p:first-child {
+        font-size: 20px;
+    }
+    #home > div p:last-of-type {
+        font-size: 40px;
+    }
+}
+
+
