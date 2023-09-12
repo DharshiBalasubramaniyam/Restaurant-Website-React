@@ -18,7 +18,7 @@ function NavBar() {
                 <ul className = {(isNavOpen) ? 'nav-open' : 'nav-close' }>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About</a></li>
-                    <li><a href='#'>Products</a></li>
+                    <li><a href='#'>Specials</a></li>
                     <li><a href='#'>Contact</a></li>
                 </ul>
                 <div className='icons'>
