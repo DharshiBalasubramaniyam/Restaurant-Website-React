@@ -17,7 +17,6 @@
 .card {
     width: 300px;
     flex: 1 1 300px;
-    /* background-color: aquamarine; */
 }
 .image {
     position: relative;
@@ -25,7 +24,6 @@
     padding: 5px;
     height: 300px;
     border: 2px solid var(--lightorange);
-    /* background-color: bisque; */
 }
 img {
     width: 100%;
@@ -33,7 +31,7 @@ img {
     object-fit:fill;
 }
 .overlay {
-    background-color:rgba(0, 0, 0, 0.5);
+    background-color:rgba(255, 168, 134, 0.556);
     position: absolute;
     top: 0;
     left: 0;
@@ -50,9 +48,14 @@ img {
     padding: 15px;
     font-size: 18px;
     border: 2px solid var(--lightorange);
+    color: var(--orange);
 }
 .card:hover .image .overlay {
     opacity: 1;
+}
+.overlay button:hover {
+    border-color: black;
+    color: black;
 }
 @media all and (max-width:1000px) {
     #specials {

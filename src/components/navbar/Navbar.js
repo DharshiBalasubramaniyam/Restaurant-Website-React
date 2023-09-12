@@ -17,9 +17,10 @@ function NavBar() {
                 <h1><GiOlive/>Olive Branch</h1>
                 <ul className = {(isNavOpen) ? 'nav-open' : 'nav-close' }>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About</a></li>
-                    <li><a href='#'>Specials</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#'>Menu</a></li>
+                    <li><a href='#'>Cart</a></li>
+                    <li><a href='#'>Wishlist</a></li>
+                    <li><a href='#'>Sign In</a></li>
                 </ul>
                 <div className='icons'>
                     {(isNavOpen) ? 
