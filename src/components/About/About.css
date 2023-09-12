@@ -1,0 +1,41 @@
+#about {
+    color: var(--orange);
+    padding: 25px 100px;
+}
+#about h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--lightorange);
+}
+#about > div {
+    display: flex;
+}
+#about .image {
+    width: 50%;
+    height: 65vh;
+    background-image: url('../../images/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:right;
+    border-radius: 10px;
+}
+#about .para {
+    width: 50%;
+    padding:  0 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about .para p {
+    font-size: 1em;
+}
+
+@media all and (max-width:1000px) {
+    #about > div {flex-direction: column;}
+    #about .image, #about .para {width: 100%; margin-bottom: 15px; padding: 0;}
+    #about .para p {
+        font-size:0.9em;
+    }
+    #about{padding:  25px 15px;}
+}
