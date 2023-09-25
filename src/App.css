@@ -9,7 +9,6 @@
 }
 
 :root {
-    /* color: rgb(255, 171, 140); */
     --orange:rgb(255, 93, 34);
     --lightorange: rgb(255, 171, 140);
 }
@@ -22,18 +21,17 @@ html {
 button {
     width: 150px;
     margin-top: 25px;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 10px 15px;
     font-size: 17px;
-    color: black;
+    color: white;
     background-color: var(--orange);
-    border: 2px solid var(--orange);
+    border: none;
     transition: 0.3s;
     cursor: pointer;
 }
 button:hover {
-    background-color: transparent;
-    color: var(--orange);
+    background-color: rgb(231, 65, 5);
 }
 
 section {
