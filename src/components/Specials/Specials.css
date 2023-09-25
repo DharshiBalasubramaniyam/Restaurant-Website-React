@@ -53,10 +53,6 @@ img {
 .card:hover .image .overlay {
     opacity: 1;
 }
-.overlay button:hover {
-    border-color: black;
-    color: black;
-}
 @media all and (max-width:1000px) {
     #specials {
         padding: 25px 15px;
