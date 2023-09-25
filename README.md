@@ -3,6 +3,7 @@ This is a restaurant's landing page using react js.
 main features of this project are:
   - Responsive Navbar using useState hooks
   - Products list using props and componants
+  - Contact form using react-hook-form with validations
 
 # Getting Started with Create React App
 
